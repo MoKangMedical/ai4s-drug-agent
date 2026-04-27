@@ -1,0 +1,35 @@
+# AI4S Drug Agent Dependencies
+# Core Chemistry
+rdkit>=2024.3.1
+meeko>=0.5.0
+vina>=1.2.5
+pdbfixer>=1.9
+
+# Molecular Generation
+# reinvent>=4.0  # Optional: if using REINVENT
+# torch>=2.0.0
+# torch-geometric>=2.3.0
+
+# LLM Integration
+openai>=1.30.0
+anthropic>=0.25.0
+requests>=2.31.0
+
+# Data Processing
+pandas>=2.2.0
+numpy>=1.26.0
+scipy>=1.13.0
+
+# Visualization (optional)
+matplotlib>=3.9.0
+plotly>=5.22.0
+
+# Utilities
+pyyaml>=6.0.1
+tqdm>=4.66.0
+loguru>=0.7.0
+python-dotenv>=1.0.0
+
+# Docking (install separately)
+# AutoDock Vina: conda install -c conda-forge vina
+# DiffDock: pip install diffdock
